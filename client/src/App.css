@@ -1,0 +1,58 @@
+h2 {
+	margin: 10px 0;
+	padding: 0;
+}
+
+button, input[type="submit"] {
+	cursor: pointer;
+}
+
+form {
+	width: 75%;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.7);
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+label {
+	min-width: 100px;
+	display: inline-block;
+}
+
+.formWrap {
+	margin-bottom: 10px;
+}
+
+#sightingsGrid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.constraint {
+	margin: 0 auto;
+    max-width: 80em;
+}
+
+.sightings-list-title {
+	padding: 0 2em 1em;
+}
+
+.container-sightings-list {
+	margin: 0 2em 2em;
+	padding: 1em 2em;
+	background: #CCC;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+.container-sighting {
+	background: #FFF;
+	padding: 1em 2em;
+	margin: 1em 0;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.container-sighting button {
+	margin-bottom: 1.5em;
+}
